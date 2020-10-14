@@ -6,10 +6,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/finance-1.png') {
-      myImage.setAttribute('src','images/finance-2.png');
+    if(mySrc === 'IMAGES/finance-1.png') {
+      myImage.setAttribute('src','IMAGES/finance-2.png');
     } else {
-      myImage.setAttribute('src','images/finance-1.png');
+      myImage.setAttribute('src','IMAGES/finance-1.png');
     }
 }
 
